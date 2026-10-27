@@ -133,7 +133,10 @@ python tts_server.py --port 8001 --gpu-idle-seconds 60
 
 ## 相关项目
 
-- 🐱 **[桌面伴侣 · Desktop Companion](https://github.com/crsm5192/desktop-companion)** —— 使用本服务的桌宠客户端
+- 🐱 **[桌面伴侣 · Desktop Companion](https://github.com/crsm5192/desktop-companion)** —— 使用本服务的桌宠客户端。
+  直接下载：**[便携版](https://github.com/crsm5192/desktop-companion/releases/latest/download/DesktopCompanion.0.1.0.exe)** ｜
+  **[安装版](https://github.com/crsm5192/desktop-companion/releases/latest/download/DesktopCompanion.Setup.0.1.0.exe)** ｜
+  **[Releases](https://github.com/crsm5192/desktop-companion/releases)**
 - 🔊 **[CosyVoice](https://github.com/FunAudioLLM/CosyVoice)** —— 底层语音合成模型
 
 ## 许可

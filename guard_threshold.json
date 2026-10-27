@@ -1,0 +1,438 @@
+{
+  "n_chars": 41,
+  "recommended_T": 8.0,
+  "rows": [
+    {
+      "file": "amai_A_current_s11.wav",
+      "dur": 12.36,
+      "cps": 3.3171521035598706,
+      "sim": 0.5060240963855421
+    },
+    {
+      "file": "amai_A_current_s222.wav",
+      "dur": 9.08,
+      "cps": 4.515418502202643,
+      "sim": 0.12307692307692308
+    },
+    {
+      "file": "amai_A_current_s3333.wav",
+      "dur": 13.16,
+      "cps": 3.115501519756839,
+      "sim": 0.07142857142857142
+    },
+    {
+      "file": "amai_A_current_s44444.wav",
+      "dur": 8.96,
+      "cps": 4.575892857142857,
+      "sim": 0.05555555555555555
+    },
+    {
+      "file": "amai_B_fixed_s11.wav",
+      "dur": 7.6,
+      "cps": 5.394736842105264,
+      "sim": 0.676923076923077
+    },
+    {
+      "file": "amai_B_fixed_s222.wav",
+      "dur": 8.36,
+      "cps": 4.904306220095694,
+      "sim": 0.6875
+    },
+    {
+      "file": "amai_B_fixed_s3333.wav",
+      "dur": 7.44,
+      "cps": 5.510752688172043,
+      "sim": 0.7096774193548387
+    },
+    {
+      "file": "amai_B_fixed_s44444.wav",
+      "dur": 8.84,
+      "cps": 4.638009049773756,
+      "sim": 0.7096774193548387
+    },
+    {
+      "file": "amai_C_eop_only_s11.wav",
+      "dur": 7.0,
+      "cps": 5.857142857142857,
+      "sim": 0.6071428571428571
+    },
+    {
+      "file": "amai_C_eop_only_s222.wav",
+      "dur": 7.12,
+      "cps": 5.758426966292134,
+      "sim": 0.7719298245614035
+    },
+    {
+      "file": "amai_C_eop_only_s3333.wav",
+      "dur": 9.44,
+      "cps": 4.343220338983051,
+      "sim": 0.6376811594202898
+    },
+    {
+      "file": "amai_C_eop_only_s44444.wav",
+      "dur": 8.8,
+      "cps": 4.659090909090908,
+      "sim": 0.6027397260273972
+    },
+    {
+      "file": "azarashi_A_current_s11.wav",
+      "dur": 3.88,
+      "cps": 10.56701030927835,
+      "sim": 0.9767441860465116
+    },
+    {
+      "file": "azarashi_A_current_s222.wav",
+      "dur": 3.92,
+      "cps": 10.459183673469388,
+      "sim": 0.9767441860465116
+    },
+    {
+      "file": "azarashi_A_current_s3333.wav",
+      "dur": 14.48,
+      "cps": 2.8314917127071824,
+      "sim": 0.4536082474226804
+    },
+    {
+      "file": "azarashi_A_current_s44444.wav",
+      "dur": 4.08,
+      "cps": 10.049019607843137,
+      "sim": 0.9767441860465116
+    },
+    {
+      "file": "azarashi_B_fixed_s11.wav",
+      "dur": 3.92,
+      "cps": 10.459183673469388,
+      "sim": 1.0
+    },
+    {
+      "file": "azarashi_B_fixed_s222.wav",
+      "dur": 5.76,
+      "cps": 7.118055555555556,
+      "sim": 0.46153846153846156
+    },
+    {
+      "file": "azarashi_B_fixed_s3333.wav",
+      "dur": 3.68,
+      "cps": 11.141304347826086,
+      "sim": 1.0
+    },
+    {
+      "file": "azarashi_B_fixed_s44444.wav",
+      "dur": 7.6,
+      "cps": 5.394736842105264,
+      "sim": 0.6875
+    },
+    {
+      "file": "azarashi_C_eop_only_s11.wav",
+      "dur": 4.6,
+      "cps": 8.913043478260871,
+      "sim": 0.9767441860465116
+    },
+    {
+      "file": "azarashi_C_eop_only_s222.wav",
+      "dur": 8.72,
+      "cps": 4.70183486238532,
+      "sim": 0.5789473684210527
+    },
+    {
+      "file": "azarashi_C_eop_only_s3333.wav",
+      "dur": 5.92,
+      "cps": 6.925675675675675,
+      "sim": 0.8
+    },
+    {
+      "file": "azarashi_C_eop_only_s44444.wav",
+      "dur": 4.36,
+      "cps": 9.40366972477064,
+      "sim": 0.9545454545454546
+    },
+    {
+      "file": "excited_A_current_s11.wav",
+      "dur": 3.28,
+      "cps": 12.5,
+      "sim": 0.9523809523809523
+    },
+    {
+      "file": "excited_A_current_s222.wav",
+      "dur": 7.0,
+      "cps": 5.857142857142857,
+      "sim": 0.43636363636363634
+    },
+    {
+      "file": "excited_A_current_s3333.wav",
+      "dur": 8.64,
+      "cps": 4.74537037037037,
+      "sim": 0.06349206349206349
+    },
+    {
+      "file": "excited_A_current_s44444.wav",
+      "dur": 4.16,
+      "cps": 9.85576923076923,
+      "sim": 0.8
+    },
+    {
+      "file": "excited_B_fixed_s11.wav",
+      "dur": 8.12,
+      "cps": 5.0492610837438425,
+      "sim": 0.676923076923077
+    },
+    {
+      "file": "excited_B_fixed_s222.wav",
+      "dur": 8.8,
+      "cps": 4.659090909090908,
+      "sim": 0.6376811594202898
+    },
+    {
+      "file": "excited_B_fixed_s3333.wav",
+      "dur": 5.96,
+      "cps": 6.879194630872483,
+      "sim": 0.32142857142857145
+    },
+    {
+      "file": "excited_B_fixed_s44444.wav",
+      "dur": 7.76,
+      "cps": 5.283505154639175,
+      "sim": 0.6567164179104478
+    },
+    {
+      "file": "excited_C_eop_only_s11.wav",
+      "dur": 7.72,
+      "cps": 5.310880829015544,
+      "sim": 0.5882352941176471
+    },
+    {
+      "file": "excited_C_eop_only_s222.wav",
+      "dur": 10.12,
+      "cps": 4.051383399209486,
+      "sim": 0.6111111111111112
+    },
+    {
+      "file": "excited_C_eop_only_s3333.wav",
+      "dur": 8.28,
+      "cps": 4.951690821256039,
+      "sim": 0.6470588235294118
+    },
+    {
+      "file": "excited_C_eop_only_s44444.wav",
+      "dur": 12.12,
+      "cps": 3.382838283828383,
+      "sim": 0.39436619718309857
+    },
+    {
+      "file": "nemuri_A_current_s11.wav",
+      "dur": 18.52,
+      "cps": 2.213822894168467,
+      "sim": 0.3559322033898305
+    },
+    {
+      "file": "nemuri_A_current_s222.wav",
+      "dur": 12.52,
+      "cps": 3.2747603833865817,
+      "sim": 0.23255813953488372
+    },
+    {
+      "file": "nemuri_A_current_s3333.wav",
+      "dur": 9.52,
+      "cps": 4.30672268907563,
+      "sim": 0.3492063492063492
+    },
+    {
+      "file": "nemuri_A_current_s44444.wav",
+      "dur": 5.44,
+      "cps": 7.536764705882352,
+      "sim": 0.41379310344827586
+    },
+    {
+      "file": "nemuri_B_fixed_s11.wav",
+      "dur": 9.16,
+      "cps": 4.475982532751091,
+      "sim": 0.5789473684210527
+    },
+    {
+      "file": "nemuri_B_fixed_s222.wav",
+      "dur": 13.04,
+      "cps": 3.1441717791411046,
+      "sim": 0.55
+    },
+    {
+      "file": "nemuri_B_fixed_s3333.wav",
+      "dur": 11.48,
+      "cps": 3.571428571428571,
+      "sim": 0.5789473684210527
+    },
+    {
+      "file": "nemuri_B_fixed_s44444.wav",
+      "dur": 9.16,
+      "cps": 4.475982532751091,
+      "sim": 0.39473684210526316
+    },
+    {
+      "file": "nemuri_C_eop_only_s11.wav",
+      "dur": 4.04,
+      "cps": 10.148514851485148,
+      "sim": 0.9767441860465116
+    },
+    {
+      "file": "nemuri_C_eop_only_s222.wav",
+      "dur": 3.92,
+      "cps": 10.459183673469388,
+      "sim": 1.0
+    },
+    {
+      "file": "nemuri_C_eop_only_s3333.wav",
+      "dur": 4.48,
+      "cps": 9.151785714285714,
+      "sim": 1.0
+    },
+    {
+      "file": "nemuri_C_eop_only_s44444.wav",
+      "dur": 10.44,
+      "cps": 3.9272030651341,
+      "sim": 0.02564102564102564
+    },
+    {
+      "file": "sasayaku_A_current_s11.wav",
+      "dur": 3.76,
+      "cps": 10.904255319148938,
+      "sim": 1.0
+    },
+    {
+      "file": "sasayaku_A_current_s222.wav",
+      "dur": 3.4,
+      "cps": 12.058823529411764,
+      "sim": 1.0
+    },
+    {
+      "file": "sasayaku_A_current_s3333.wav",
+      "dur": 4.6,
+      "cps": 8.913043478260871,
+      "sim": 0.9767441860465116
+    },
+    {
+      "file": "sasayaku_A_current_s44444.wav",
+      "dur": 4.04,
+      "cps": 10.148514851485148,
+      "sim": 1.0
+    },
+    {
+      "file": "sasayaku_B_fixed_s11.wav",
+      "dur": 6.2,
+      "cps": 6.612903225806451,
+      "sim": 0.8148148148148148
+    },
+    {
+      "file": "sasayaku_B_fixed_s222.wav",
+      "dur": 6.72,
+      "cps": 6.101190476190476,
+      "sim": 0.7719298245614035
+    },
+    {
+      "file": "sasayaku_B_fixed_s3333.wav",
+      "dur": 4.0,
+      "cps": 10.25,
+      "sim": 0.9545454545454546
+    },
+    {
+      "file": "sasayaku_B_fixed_s44444.wav",
+      "dur": 7.2,
+      "cps": 5.694444444444445,
+      "sim": 0.7719298245614035
+    },
+    {
+      "file": "sasayaku_C_eop_only_s11.wav",
+      "dur": 7.36,
+      "cps": 5.570652173913043,
+      "sim": 0.7636363636363637
+    },
+    {
+      "file": "sasayaku_C_eop_only_s222.wav",
+      "dur": 3.92,
+      "cps": 10.459183673469388,
+      "sim": 1.0
+    },
+    {
+      "file": "sasayaku_C_eop_only_s3333.wav",
+      "dur": 5.72,
+      "cps": 7.167832167832168,
+      "sim": 0.5
+    },
+    {
+      "file": "sasayaku_C_eop_only_s44444.wav",
+      "dur": 4.12,
+      "cps": 9.951456310679612,
+      "sim": 1.0
+    },
+    {
+      "file": "soft_A_current_s11.wav",
+      "dur": 4.2,
+      "cps": 9.761904761904761,
+      "sim": 0.9767441860465116
+    },
+    {
+      "file": "soft_A_current_s222.wav",
+      "dur": 4.48,
+      "cps": 9.151785714285714,
+      "sim": 0.9565217391304348
+    },
+    {
+      "file": "soft_A_current_s3333.wav",
+      "dur": 9.4,
+      "cps": 4.361702127659575,
+      "sim": 0.4864864864864865
+    },
+    {
+      "file": "soft_A_current_s44444.wav",
+      "dur": 14.92,
+      "cps": 2.74798927613941,
+      "sim": 0.4782608695652174
+    },
+    {
+      "file": "soft_B_fixed_s11.wav",
+      "dur": 6.52,
+      "cps": 6.288343558282209,
+      "sim": 0.7213114754098361
+    },
+    {
+      "file": "soft_B_fixed_s222.wav",
+      "dur": 3.88,
+      "cps": 10.56701030927835,
+      "sim": 1.0
+    },
+    {
+      "file": "soft_B_fixed_s3333.wav",
+      "dur": 4.12,
+      "cps": 9.951456310679612,
+      "sim": 1.0
+    },
+    {
+      "file": "soft_B_fixed_s44444.wav",
+      "dur": 7.76,
+      "cps": 5.283505154639175,
+      "sim": 0.7213114754098361
+    },
+    {
+      "file": "soft_C_eop_only_s11.wav",
+      "dur": 4.72,
+      "cps": 8.686440677966102,
+      "sim": 0.9302325581395349
+    },
+    {
+      "file": "soft_C_eop_only_s222.wav",
+      "dur": 9.72,
+      "cps": 4.2181069958847734,
+      "sim": 0.6197183098591549
+    },
+    {
+      "file": "soft_C_eop_only_s3333.wav",
+      "dur": 10.36,
+      "cps": 3.957528957528958,
+      "sim": 0.6111111111111112
+    },
+    {
+      "file": "soft_C_eop_only_s44444.wav",
+      "dur": 5.08,
+      "cps": 8.070866141732283,
+      "sim": 0.8695652173913043
+    }
+  ]
+}

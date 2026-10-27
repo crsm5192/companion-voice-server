@@ -1,0 +1,19 @@
+# 依赖清单（Python 3.10+）
+# 说明：CosyVoice 本体建议按其官方仓库安装，这里只列服务运行所需的主要依赖。
+# 实际版本号参考开发环境（Windows + CUDA 12.1）。
+
+torch==2.3.1
+torchaudio==2.3.1
+numpy==1.26.4
+scipy>=1.10
+librosa==0.10.2
+soundfile==0.12.1
+transformers==4.51.3
+diffusers==0.29.0
+onnxruntime==1.18.0
+modelscope==1.20.0
+hyperpyyaml==1.2.3
+conformer==0.3.2
+
+# 音频处理
+# ffmpeg 需要单独安装（系统包管理器 / conda / 官方二进制），不通过 pip

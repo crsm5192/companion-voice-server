@@ -5,7 +5,7 @@
 **为桌面宠物适配的常驻语音后端**。
 基于 [CosyVoice3](https://github.com/FunAudioLLM/CosyVoice) + 自定义音色 LoRA，对外暴露 OpenAI 兼容的语音接口。
 
-> 🔗 **配套桌宠项目：[桌面伴侣 · Desktop Companion](https://github.com/crsm5192/awa-subaru-companion)**
+> 🔗 **配套桌宠项目：[桌面伴侣 · Desktop Companion](https://github.com/crsm5192/desktop-companion)**
 > —— 它是本服务的**使用方**：桌宠负责 Live2D 渲染、对话、音乐、番茄钟等，说话时调用本服务拿音频；
 > 本项目只负责「把文字变成那个角色的声音」。两者通过 HTTP 解耦，可分别部署、甚至跑在不同机器上。
 
@@ -133,7 +133,7 @@ python tts_server.py --port 8001 --gpu-idle-seconds 60
 
 ## 相关项目
 
-- 🐱 **[桌面伴侣 · Desktop Companion](https://github.com/crsm5192/awa-subaru-companion)** —— 使用本服务的桌宠客户端
+- 🐱 **[桌面伴侣 · Desktop Companion](https://github.com/crsm5192/desktop-companion)** —— 使用本服务的桌宠客户端
 - 🔊 **[CosyVoice](https://github.com/FunAudioLLM/CosyVoice)** —— 底层语音合成模型
 
 ## 许可

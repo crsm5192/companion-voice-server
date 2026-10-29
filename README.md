@@ -100,8 +100,27 @@ python tts_server.py --port 8001 --gpu-idle-seconds 60
 |---|---|
 | 模式 | `server（常驻服务）` |
 | 服务地址 | `http://127.0.0.1:8001`（或部署机器的 IP） |
+| 接口风格 | `openai（/v1/audio/speech）` |
+| 服务端语言 | 填本服务支持的语言（如 `jp`）；**留空则不干预** |
+| 语言适配策略 | `simplify`（默认，推荐） |
+| ☑ 语言报错自动重试 | 建议勾上 |
 
 桌宠会调用 `/v1/audio/speech`，拿到音频后自动播放并驱动口型。
+
+#### 语言不匹配怎么办
+
+如果本服务只挂了一种语言的 LoRA（例如只支持日语），而桌宠输出的是中文，
+服务端会返回 400 拒绝。桌宠侧已内置**配置驱动的语言适配**：
+
+- **`lang`**：告诉桌宠「服务端要什么语言」，留空则完全不干预
+- **`langAdapt`**：`simplify` = 只做字形/假名层面适配（不改语义）；`kana` = 转假名读音；`off` = 原样发送
+- **自动重试**：服务端报「语言不支持」时，自动适配后再发一次
+
+> 实测：只支持日语的服务遇到「无假名的长汉字串」会判为中文并拒绝；
+> 但**只要句中出现任意假名**就会按日语接受。因此 `simplify` 策略会对这类文本补一个
+> 假名标记（`はい、…`），中文原文即可正常合成——读作汉字音读，语义不变。
+
+想要真正说日语：在人设里要求模型输出日语即可（⚙️ → 对话 / 语音规则）。
 
 ## 资源占用（实测）
 
@@ -134,8 +153,8 @@ python tts_server.py --port 8001 --gpu-idle-seconds 60
 ## 相关项目
 
 - 🐱 **[桌面伴侣 · Desktop Companion](https://github.com/crsm5192/desktop-companion)** —— 使用本服务的桌宠客户端。
-  直接下载：**[便携版](https://github.com/crsm5192/desktop-companion/releases/latest/download/DesktopCompanion.0.2.0.exe)** ｜
-  **[安装版](https://github.com/crsm5192/desktop-companion/releases/latest/download/DesktopCompanion.Setup.0.2.0.exe)** ｜
+  直接下载：**[便携版](https://github.com/crsm5192/desktop-companion/releases/latest/download/DesktopCompanion.0.3.0.exe)** ｜
+  **[安装版](https://github.com/crsm5192/desktop-companion/releases/latest/download/DesktopCompanion.Setup.0.3.0.exe)** ｜
   **[Releases](https://github.com/crsm5192/desktop-companion/releases)**
 - 🔊 **[CosyVoice](https://github.com/FunAudioLLM/CosyVoice)** —— 底层语音合成模型
 
